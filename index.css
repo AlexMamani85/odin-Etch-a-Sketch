@@ -1,0 +1,21 @@
+.BothSidesContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;;
+}
+
+.gridContainer{
+    border: red 1px solid;
+}
+
+#sketch{
+    border: blue 1px solid;
+    display: grid;
+    gap: 10px;
+}
+
+label,select {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
